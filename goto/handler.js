@@ -7,7 +7,7 @@ module.exports = (event, context) => {
         redirect = "https://www.alexellis.io/";
     } else if(event.path == "/sponsors" || event.path == "/insiders") {
         redirect = "https://github.com/users/alexellis/sponsorship";
-    } else if(event.path == "inlets") {
+    } else if(event.path == "/inlets") {
         redirect = "https://inlets.dev";
     }
 
