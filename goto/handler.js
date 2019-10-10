@@ -9,6 +9,8 @@ module.exports = (event, context) => {
         redirect = "https://github.com/users/alexellis/sponsorship";
     } else if(event.path == "/inlets") {
         redirect = "https://inlets.dev";
+    } else if(event.path == "/k3sup") {
+        redirect = "https://k3sup.dev";
     }
 
     process.stderr.write(event.path)
