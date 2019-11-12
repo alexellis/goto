@@ -8,3 +8,4 @@ functions:
     handler: ./goto
     image: goto:latest
 
+
